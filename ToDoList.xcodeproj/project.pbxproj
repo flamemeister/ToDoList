@@ -14,6 +14,7 @@
 		EB7085A32B253218006F5442 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = EB7085A22B253218006F5442 /* FirebaseAuth */; };
 		EB7085A52B253218006F5442 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = EB7085A42B253218006F5442 /* FirebaseFirestore */; };
 		EB7085A72B253218006F5442 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EB7085A62B253218006F5442 /* FirebaseFirestoreSwift */; };
+		EB7085A92B253588006F5442 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB7085A82B253588006F5442 /* GoogleService-Info-2.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EB7085952B253129006F5442 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB7085972B25312B006F5442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB70859A2B25312B006F5442 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EB7085A82B253588006F5442 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				EB7085932B253129006F5442 /* ToDoListApp.swift */,
 				EB7085952B253129006F5442 /* ContentView.swift */,
 				EB7085972B25312B006F5442 /* Assets.xcassets */,
+				EB7085A82B253588006F5442 /* GoogleService-Info-2.plist */,
 				EB7085992B25312B006F5442 /* Preview Content */,
 			);
 			path = ToDoList;
@@ -141,6 +144,7 @@
 			files = (
 				EB70859B2B25312B006F5442 /* Preview Assets.xcassets in Resources */,
 				EB7085982B25312B006F5442 /* Assets.xcassets in Resources */,
+				EB7085A92B253588006F5442 /* GoogleService-Info-2.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
