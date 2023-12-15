@@ -29,6 +29,7 @@
 		EB918CCF2B2655FE00D9B7FB /* LoginViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB918CCE2B2655FE00D9B7FB /* LoginViewViewModel.swift */; };
 		EB918CD12B26560B00D9B7FB /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB918CD02B26560B00D9B7FB /* RegisterViewViewModel.swift */; };
 		EB918CD32B26561C00D9B7FB /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB918CD22B26561C00D9B7FB /* ToDoListItemViewViewModel.swift */; };
+		EBDA7EB72B2C732700BD8A7B /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDA7EB62B2C732700BD8A7B /* TLButton.swift */; };
 		EBE8FB952B26531700E84DF7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBE8FB942B26531700E84DF7 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,6 +54,7 @@
 		EB918CCE2B2655FE00D9B7FB /* LoginViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewViewModel.swift; sourceTree = "<group>"; };
 		EB918CD02B26560B00D9B7FB /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		EB918CD22B26561C00D9B7FB /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
+		EBDA7EB62B2C732700BD8A7B /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		EBE8FB942B26531700E84DF7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -117,6 +119,7 @@
 				EB918CBC2B2654AC00D9B7FB /* LoginView.swift */,
 				EB918CBE2B2654B500D9B7FB /* RegisterView.swift */,
 				EB918CC02B26550D00D9B7FB /* ToDoListItemView.swift */,
+				EBDA7EB62B2C732700BD8A7B /* TLButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB918CBD2B2654AC00D9B7FB /* LoginView.swift in Sources */,
+				EBDA7EB72B2C732700BD8A7B /* TLButton.swift in Sources */,
 				EB7085962B253129006F5442 /* MainView.swift in Sources */,
 				EB918CD12B26560B00D9B7FB /* RegisterViewViewModel.swift in Sources */,
 				EB918CC72B2655C400D9B7FB /* MainViewViewModel.swift in Sources */,
