@@ -53,7 +53,7 @@ struct RegisterView: View {
                             .foregroundColor(.black)
                             .padding(.top, 5)
                         TLButton(){
-                            
+                            viewModel.register() 
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.top, 200)

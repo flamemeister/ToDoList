@@ -66,7 +66,7 @@ struct LoginView: View {
                             .foregroundColor(.black)
                             .padding(.top, 5)
                         TLButton(){
-                            
+                            viewModel.login()
                         }
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .padding(.top, 200)

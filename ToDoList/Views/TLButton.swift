@@ -12,7 +12,7 @@ struct TLButton: View {
     
     var body: some View {
         Button{
-            
+            action()
         } label: {
             Image(systemName: "arrow.right")
                 .font(.system(size: 24, weight: .bold))
