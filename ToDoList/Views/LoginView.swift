@@ -31,7 +31,13 @@ struct LoginView: View {
                         }
                     )
                 }
+                
+                
                 VStack{
+                    if !viewModel.errorMessage.isEmpty{
+                        Text(viewModel.errorMessage)
+                            .foregroundColor(Color.red)
+                    }
                    Text("Sign in")
                         .font(.title)
                         .fontWeight(.bold)
