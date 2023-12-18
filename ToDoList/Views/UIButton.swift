@@ -28,8 +28,7 @@ struct UIButton: View {
 
 struct UIButton_Previews: PreviewProvider {
     static var previews: some View {
-        UIButton(title: "Value", background: .pink){
-            
+        UIButton(title: "Value", background: .pink){    
         }
     }
 }

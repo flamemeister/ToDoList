@@ -22,14 +22,12 @@ struct TLButton: View {
                 .clipShape(Circle())
                 .shadow(color: .blue.opacity(0.6), radius: 5, x: 0, y: 0)
             }
-        
     }
 }
 
 struct TLButton_Previews: PreviewProvider {
     static var previews: some View {
-        TLButton(){
-            
+        TLButton(){ 
         }
     }
 }

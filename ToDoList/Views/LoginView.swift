@@ -81,8 +81,8 @@ struct LoginView: View {
                 .padding(.top, 1)
             }
         }
-        }
     }
+}
 
 struct LoginView_Previews: PreviewProvider {
     static var previews: some View {
