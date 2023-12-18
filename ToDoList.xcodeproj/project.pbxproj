@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EB6A49C62B302A2D0088DDCF /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6A49C52B302A2D0088DDCF /* UIButton.swift */; };
 		EB7085942B253129006F5442 /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7085932B253129006F5442 /* ToDoListApp.swift */; };
 		EB7085962B253129006F5442 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB7085952B253129006F5442 /* MainView.swift */; };
 		EB7085982B25312B006F5442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7085972B25312B006F5442 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB6A49C52B302A2D0088DDCF /* UIButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButton.swift; sourceTree = "<group>"; };
 		EB7085902B253129006F5442 /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7085932B253129006F5442 /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		EB7085952B253129006F5442 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 				EB918CBE2B2654B500D9B7FB /* RegisterView.swift */,
 				EB918CC02B26550D00D9B7FB /* ToDoListItemView.swift */,
 				EBDA7EB62B2C732700BD8A7B /* TLButton.swift */,
+				EB6A49C52B302A2D0088DDCF /* UIButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -241,6 +244,7 @@
 				EB918CD12B26560B00D9B7FB /* RegisterViewViewModel.swift in Sources */,
 				EB918CC72B2655C400D9B7FB /* MainViewViewModel.swift in Sources */,
 				EB918CB92B26548B00D9B7FB /* ToDoListView.swift in Sources */,
+				EB6A49C62B302A2D0088DDCF /* UIButton.swift in Sources */,
 				EB918CBF2B2654B500D9B7FB /* RegisterView.swift in Sources */,
 				EB918CC92B2655D200D9B7FB /* ProfileViewViewModel.swift in Sources */,
 				EBE8FB952B26531700E84DF7 /* ProfileView.swift in Sources */,
