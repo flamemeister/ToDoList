@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import FirebaseAuth
+import FirebaseFirestore
 
 class NewItemViewViewModel: ObservableObject{
     @Published var title = ""
@@ -15,6 +17,18 @@ class NewItemViewViewModel: ObservableObject{
         
     }
     func save(){
+        guard canSave else {
+            return
+        }
+        guard let uId = Auth.auth().currentUser?.uid else {
+            return
+        }
+        let db = Firestore.firestore()
+        db.collection("users")
+            .document(uId)
+            .collection("todos")
+            .document("123")
+            .setData([:])
         
     }
     
