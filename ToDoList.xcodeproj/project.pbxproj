@@ -117,10 +117,10 @@
 				EB7085952B253129006F5442 /* MainView.swift */,
 				EBE8FB942B26531700E84DF7 /* ProfileView.swift */,
 				EB918CB82B26548B00D9B7FB /* ToDoListView.swift */,
+				EB918CC02B26550D00D9B7FB /* ToDoListItemView.swift */,
 				EB918CBA2B26549B00D9B7FB /* NewItemView.swift */,
 				EB918CBC2B2654AC00D9B7FB /* LoginView.swift */,
 				EB918CBE2B2654B500D9B7FB /* RegisterView.swift */,
-				EB918CC02B26550D00D9B7FB /* ToDoListItemView.swift */,
 				EBDA7EB62B2C732700BD8A7B /* TLButton.swift */,
 				EB6A49C52B302A2D0088DDCF /* UIButton.swift */,
 			);
